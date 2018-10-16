@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.RequestMethod;
 import com.stefanini.dto.EnderecoDTO;
 
 @FeignClient("ENDERECO")
-public interface FeignClient2 {
+public interface FeignEndereco {
 
 	@RequestMapping(value="/endereco", method = RequestMethod.GET)
 	EnderecoDTO sayHyByEndereco();
