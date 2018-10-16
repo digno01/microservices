@@ -18,7 +18,7 @@ import com.stefanini.dto.PessoaDTO;
 public class RestService {
 
 	@Autowired
-	private FeignClient2 feignClient2;
+	private FeignEndereco feignClient2;
 	
 	@RequestMapping( method = RequestMethod.GET)
 	public ResponseEntity<PessoaDTO> sayHy(){
