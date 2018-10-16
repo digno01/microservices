@@ -14,7 +14,7 @@ import com.stefanini.dto.PessoaDTO;
 
 @RestController
 @AllArgsConstructor
-@RequestMapping("/cliente")
+@RequestMapping("/pessoa")
 public class RestService {
 
 	@Autowired
